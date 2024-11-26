@@ -7,6 +7,9 @@ export default function LogIn(params) {
     return(
         <div>
             <h1>LogIn Here</h1>
+            User Name <input type="text"></input><br></br>
+            Password <input type="password"></input><br></br>
+
             <botton onClick={authentication}>LogIn</botton>
         </div>
     )
